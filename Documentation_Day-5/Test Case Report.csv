@@ -1,0 +1,9 @@
+Test Case ID,Description,Expected Result,Actual Result,Status,Severity,Assigned To,Remarks
+TC001,Homepage loads successfully,Homepage should load properly,Slight delay in loading,Pass,Low,Dev Team,Optimize load time
+TC002,Navigation links work,Links should redirect correctly,Some footer links are broken,Fail,Medium,Dev Team,Fix broken links
+TC004,Contact form submission,Success message should appear,No confirmation message,Fail,High,Dev Team,Add confirmation message
+TC007,Performance Testing,Score should be above 90,Score is 80/100,Fail,Medium,Dev Team,Minify unused CSS & JS
+TC008,Cross-browser compatibility,Website should render properly,Safari font inconsistencies,Partial Pass,Medium,Dev Team,Fix font issues
+TC010,Security Testing - Form validation,Error messages should guide users,Error messages expose details,Fail,High,Security Team,Implement generic error messages
+TC011,CAPTCHA implementation,Prevent spam submissions,CAPTCHA is missing,Fail,High,Security Team,Add CAPTCHA
+TC013,Checkout Process Validation,User should complete purchase,Occasional checkout failures,Fail,High,Dev Team,Investigate checkout issues
